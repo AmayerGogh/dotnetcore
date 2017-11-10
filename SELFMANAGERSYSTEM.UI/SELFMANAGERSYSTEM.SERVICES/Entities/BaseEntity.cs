@@ -8,8 +8,8 @@ namespace ZSZ.Service.Entities
 {
     public abstract class BaseEntity
     {
-        public long Id { get; set; }
-        public DateTime CreateDateTime { get; set; } = DateTime.Now;
-        public bool IsDeleted { get; set; } = false;
+        public Guid ID { get; set; }
+        public DateTime CREATEDATE { get; set; } = DateTime.Now;
+        public bool ISDELETED { get; set; } = false;
     }
 }
